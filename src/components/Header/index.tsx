@@ -5,7 +5,6 @@ import { Text } from 'rebass'
 
 import styled from 'styled-components'
 
-import LogoDark from '../../assets/svg/logo_white.svg'
 import logoPaw from '../../assets/images/100.png'
 import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
@@ -139,7 +138,7 @@ export default function Header() {
         <HeaderElement>
           <Title href=".">
             <UniIcon>
-              <img src={isDark ? LogoDark : logoPaw} alt="logo" />
+              <img src={isDark ? logoPaw : logoPaw} alt="logo" />
             </UniIcon>
           </Title>
         </HeaderElement>
