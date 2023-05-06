@@ -5,7 +5,7 @@ import { Text } from 'rebass'
 
 import styled from 'styled-components'
 
-import logoPaw from '../../assets/images/100.png'
+import logo0x from '../../assets/images/logo.png'
 import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
 import { useETHBalances } from '../../state/wallet/hooks'
@@ -138,7 +138,7 @@ export default function Header() {
         <HeaderElement>
           <Title href=".">
             <UniIcon>
-              <img src={isDark ? logoPaw : logoPaw} alt="logo" />
+              <img src={isDark ? logo0x : logo0x} alt="logo" />
             </UniIcon>
           </Title>
         </HeaderElement>
